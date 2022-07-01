@@ -11,7 +11,7 @@
 <meta property="og:image" content="">
 </head>
 <body>
-<audio id="background_song" onended="newSong(undefined, ',all_black.mp3, luv_money_ft_lancey')" src="music/all_black.mp3, music/luv_money_ft_lancey"></audio>
+<audio id="background_song" onended="newSong(undefined, ',all_black.mp3, luv_money_ft_lancey')" src="music/all_black.mp3"></audio>
 <img id="myBackground" src="wallpapers/background.gif">
 <title>Sippin Red</title>
 <div id="screen">
@@ -33,9 +33,9 @@
     <br>
 <hr>
 <div>
-<img src="img/reverse.png" id="reverse" style="cursor: pointer" onclick="newSong('reverse', 'all_black.mp3, luv_money_ft_lancey.mp3')">
+<img src="img/reverse.png" id="reverse" style="cursor: pointer" onclick="newSong('reverse', 'all_black.mp3,luv_money_ft_lancey.mp3')">
 <input class="connected" type="range" min="0" max="100" value="20" id="volume_slider" oninput="changeVolume(this.value)" onchange="changeVolume(this.value)">
-<img src="img/skip.png" id="skip" style="cursor: pointer" onclick="newSong('skip', 'all_black.mp3, luv_money_ft_lancey.mp3')">
+<img src="img/skip.png" id="skip" style="cursor: pointer" onclick="newSong('skip', 'all_black.mp3,luv_money_ft_lancey.mp3')">
 <br>
 <img src="img/play.png" id="state" style="cursor: pointer" onclick="songHandler()">
 </div>
