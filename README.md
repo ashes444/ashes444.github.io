@@ -1,3 +1,1 @@
-# expzr.me
-
-website
+sippin.red
